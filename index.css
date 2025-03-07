@@ -17,6 +17,7 @@ body{
     background-color: #f9fafb;
     position: absolute;
     right: 0;
+    overflow: hidden;
 }
 #header_text_container{
     margin-left: 3vw;
@@ -83,6 +84,7 @@ label{
     color: #1f2937;
     font-family: roboto;
     font-weight: bolder;
+    font-size: 0.7vw;
 }
 input{
     background-color: #ffffff;
@@ -118,6 +120,7 @@ form{
    font-size: medium;
    font-weight: bold;
    font-family: rgb(247, 248, 246);
+   overflow: hidden;
 }
 #button_container>button:hover{
     background-color: #596D48;
@@ -137,9 +140,7 @@ section{
 }
 
 
-input:invalid{
-    border-color: red;
-}
-input:valid{
+
+.password:valid{
     border-color: green;
 }
