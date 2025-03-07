@@ -59,7 +59,7 @@ body{
 
 #forum_container{
     border: none;
-    box-shadow: 30px -5px  15px 0.1px black;
+    box-shadow: 1px -3px 14px black;
     background-color: #ffffff;
     color: #1f2937;
     font-family: roboto;
@@ -94,8 +94,8 @@ input{
     border-radius: 0.25rem;
 }
 input:focus{
-    box-shadow: 1px 0px 10px 0.5px black ;
-    border: 2.5px rgb(148, 164, 211)  solid;
+    box-shadow: 1px 1px 4px #6384e4 ;
+    border: 2.5px #E5E7EB solid;
     
 }
 form{
@@ -112,7 +112,7 @@ form{
    width: 11vw;
    height: 5vh;
    border-radius:0.2em ;
-   box-shadow: 1px 0px 9px 0.001px black;
+   box-shadow: 1px 1px 4px black;
    cursor: pointer;
    color: white;
    font-size: medium;
@@ -120,7 +120,7 @@ form{
    font-family: rgb(247, 248, 246);
 }
 #button_container>button:hover{
-    background-color: hsl(93, 17%, 31%);
+    background-color: #596D48;
     transition: 1s;
  }
 
@@ -134,4 +134,12 @@ section{
     margin-top: 2vh;
     font-family: sans-serif ;
     font-weight:550;
+}
+
+
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green;
 }
