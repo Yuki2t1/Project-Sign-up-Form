@@ -121,7 +121,7 @@ form{
    font-weight: bold;
    font-family: rgb(247, 248, 246);
    overflow: hidden;
-}
+}   
 #button_container>button:hover{
     background-color: #596D48;
     transition: 1s;
@@ -140,7 +140,10 @@ section{
 }
 
 
-
+.password:invalid{
+    border-color: red;
+}
 .password:valid{
     border-color: green;
 }
+
